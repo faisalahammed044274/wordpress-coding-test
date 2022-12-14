@@ -11,3 +11,18 @@ greetings('faisalahammed044274', 'PHP');
 <p> <?php bloginfo('description'); ?> </p>
 
 
+<?php 
+    $names = array('faisal ahammed', 'faisal', 'ahammed','setu', 'setufaisal');
+?>
+<p> Hi, My name is <?php echo $names[0]; ?></p>
+
+<?php
+
+$count = 1;
+
+while($count < 30){
+    echo "<li>$count</li>";
+    $count++;
+}
+
+
