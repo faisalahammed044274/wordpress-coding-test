@@ -14,7 +14,7 @@ greetings('faisalahammed044274', 'PHP');
 <?php 
     $names = array('faisal ahammed', 'faisal', 'ahammed','setu', 'setufaisal');
 ?>
-<p> Hi, My name is <?php echo $names[0]; ?></p>
+<p> Hi, My name is <?php echo $names[4]; ?></p>
 
 <?php
 
@@ -23,6 +23,14 @@ $count = 1;
 while($count < 30){
     echo "<li>$count</li>";
     $count++;
+}
+
+$namelists = array('faisal ahammed', 'faisal', 'ahammed','setu', 'setufaisal');
+$countname = 0;
+
+while($countname < count($namelists)){
+    echo "<li>Hi, My name is $names[$countname]</li>";
+    $countname++;
 }
 
 
