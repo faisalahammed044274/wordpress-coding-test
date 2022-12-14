@@ -6,5 +6,7 @@ function greetings($name, $lang){
 greetings('Faisal','WordPress');
 greetings('Ahammed', 'Laravel');
 greetings('faisalahammed044274', 'PHP');
+?>
+<h1> <?php bloginfo('name'); ?> </h1>
 
 
