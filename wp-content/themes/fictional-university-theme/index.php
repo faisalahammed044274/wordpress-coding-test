@@ -20,7 +20,7 @@ greetings('faisalahammed044274', 'PHP');
 
 $count = 1;
 
-while($count < 30){
+while($count < 4){
     echo "<li>$count</li>";
     $count++;
 }
@@ -32,5 +32,16 @@ while($countname < count($namelists)){
     echo "<li>Hi, My name is $names[$countname]</li>";
     $countname++;
 }
+?>
+
+<?php
+
+while(have_posts()){
+    the_post();?>
+    <h2><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h2>
+    <?php the_content(); ?>
+<?php } ?>
+
+
 
 
