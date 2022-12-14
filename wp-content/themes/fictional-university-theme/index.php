@@ -8,5 +8,6 @@ greetings('Ahammed', 'Laravel');
 greetings('faisalahammed044274', 'PHP');
 ?>
 <h1> <?php bloginfo('name'); ?> </h1>
+<p> <?php bloginfo('description'); ?> </p>
 
 
