@@ -38,19 +38,19 @@
             <nav>
               <ul class="min-list social-icons-list group">
                 <li>
-                  <a href="#" class="social-color-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#" class="social-color-facebook"><i class="fa-brands fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a href="#" class="social-color-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href="#" class="social-color-twitter"><i class="fa-brands fa-twitter"></i></a>
                 </li>
                 <li>
-                  <a href="#" class="social-color-youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                  <a href="#" class="social-color-youtube"><i class="fa-brands fa-youtube"></i></a>
                 </li>
                 <li>
-                  <a href="#" class="social-color-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  <a href="#" class="social-color-linkedin"><i class="fa-brands fa-linkedin"></i></a>
                 </li>
                 <li>
-                  <a href="#" class="social-color-instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  <a href="#" class="social-color-instagram"><i class="fa-brands fa-instagram"></i></a>
                 </li>
               </ul>
             </nav>
