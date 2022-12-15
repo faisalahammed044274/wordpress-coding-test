@@ -1,0 +1,1 @@
+<p style="color:red; background:lightgrey; padding:30px; text-align:center;">This is from footer</p>

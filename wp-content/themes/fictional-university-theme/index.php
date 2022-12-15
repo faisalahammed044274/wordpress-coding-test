@@ -1,4 +1,4 @@
-<?Php
+<?Php  get_header();
 function greetings($name, $lang){
     echo "<p>Hello,I am $name . This is my first function and i love to work with $lang.</p>";
 }
@@ -40,7 +40,10 @@ while(have_posts()){
     the_post();?>
     <h2><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h2>
     <?php the_content(); ?>
-<?php } ?>
+<?php } 
+
+get_footer();
+?>
 
 
 
