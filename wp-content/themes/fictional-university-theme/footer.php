@@ -1,1 +1,6 @@
-<p style="color:red; background:lightgrey; padding:30px; text-align:center;">This is from footer</p>
+<p>Greetings from footer</p>
+
+<?php wp_footer();?>
+
+</body>
+</html>
