@@ -6,4 +6,5 @@ while (have_posts()) {
     <?php the_content(); ?>
 <?php }
 get_footer();
+
 ?>
