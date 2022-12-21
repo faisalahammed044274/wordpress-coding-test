@@ -20,7 +20,7 @@
       <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
       <div class="site-header__menu group">
         <nav class="main-navigation">
-          <!-- <?php// wp_nav_menu(array( 'woocommerce_admin_order_preview_line_item_column_sanitize_key(column>)', 'callback' )); ?> -->
+          <!-- <?//php wp_nav_menu(array( 'woocommerce_admin_order_preview_line_item_column_sanitize_key(column>)', 'callback' )); ?> -->
 
           <ul>
             <li <?php if (is_page('about-us') or wp_get_post_parent_id(0) == 16) echo 'class= "current-menu-item"'?>><a href="<?php echo site_url('/about-us'); 

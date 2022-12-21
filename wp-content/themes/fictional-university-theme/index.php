@@ -25,7 +25,7 @@ get_header();
     </div>
     <div class="generic-content">
       <?php the_excerpt(); ?>
-      <p class="btn btn--blue"><a href="<?php the_permalink(); ?>">Continue reading</a></p>
+      <p class="btn btn--orange"><a href="<?php the_permalink(); ?>">Continue reading</a></p>
     </div>
   <?php } ?>
 
