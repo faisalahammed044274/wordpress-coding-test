@@ -21,7 +21,7 @@ get_header();
       <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
     </div>
     <div class="metabox">
-      <p>posted by faisal on 22 Dec 2022 in theme blog.</p>
+      <p>posted by <?php the_author_posts_link(); ?> on <?php the_time('D,M,Y') ?> in <?php echo get_the_category_list(); ?>.</p>
     </div>
     <div class="generic-content">
       <?php the_excerpt(); ?>
