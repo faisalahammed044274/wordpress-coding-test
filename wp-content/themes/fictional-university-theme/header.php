@@ -22,14 +22,14 @@
         <nav class="main-navigation">
           <?php wp_nav_menu(array( 'woocommerce_admin_order_preview_line_item_column_sanitize_key(column>)', 'callback' )); ?>
 
-          <!-- <ul>
-            <li><a href="<?php //echo site_url('/about-us'); 
+          <ul>
+            <li <?php if (is_page('about-us') or wp_get_post_parent_id(0) == 16) echo 'class= "current-menu-item"'?>><a href="<?php echo site_url('/about-us'); 
                           ?>">About Us</a></li>
             <li><a href="#">Programs</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">Campuses</a></li>
             <li><a href="#">Blog</a></li>
-          </ul> -->
+          </ul>
         </nav>
         <div class="site-header__util">
           <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
