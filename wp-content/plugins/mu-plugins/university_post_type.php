@@ -1,5 +1,5 @@
 <?php
-
+//Add Events
 function university_post_types()
 {
     register_post_type('event', array(
