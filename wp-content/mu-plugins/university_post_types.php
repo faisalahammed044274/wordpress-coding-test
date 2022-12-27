@@ -6,8 +6,6 @@
  * Version : 1.0.0
  * Author : FaisalAhammed044274
  * 
- * 
- * 
  */
 //Add Events
 function university_post_types()
