@@ -1,1 +1,1 @@
-# wordpress code Test with HTML CSS JS & PHP
+# wordpress-unlocking-power-with-code
