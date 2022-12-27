@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Name : Events Testing
+ * Name : Events MU Plugin Testing
  * Description : Testing  Events MU Plugins
  * Author : Faisal
  * Version : 1.0.0
