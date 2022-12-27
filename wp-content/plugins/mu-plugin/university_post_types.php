@@ -1,4 +1,11 @@
 <?php
+
+/**
+ * Name : Events Testing
+ * Description : Testing  Events MU Plugins
+ * Author : Faisal
+ * Version : 1.0.0
+ */
 //Add Events
 function university_post_types()
 {
