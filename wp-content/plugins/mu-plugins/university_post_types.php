@@ -3,7 +3,8 @@
 /**
  * Plugin Name : Test pligun
  * Description : This is a test plugin to show the data of events
- * 
+ * version : 1.0
+ * Author : faisalahammed044274
  * 
  */
 
