@@ -27,7 +27,9 @@ get_header();
       <?php the_excerpt(); ?>
       <p class="btn btn--orange"><a href="<?php the_permalink(); ?>">Continue reading</a></p>
     </div>
-  <?php } ?>
+  <?php }
+  echo paginate_links();
+  ?>
 
 </div>
 
